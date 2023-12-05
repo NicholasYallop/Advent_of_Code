@@ -2,6 +2,6 @@
 readPath = Environment.CurrentDirectory + "/data/" + readPath;
 var streamReader = new StreamReader(readPath);
 
-var ans = day1.trebuchet_calibrator.part_two(streamReader);
+var ans = day2.bag_solver.part_one(streamReader);
 
 Console.WriteLine(ans);
