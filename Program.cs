@@ -2,6 +2,6 @@
 readPath = Environment.CurrentDirectory + "/data/" + readPath;
 var streamReader = new StreamReader(readPath);
 
-var ans = day3.schematic_analyser.part_two(streamReader);
+var ans = day4.card_analyzer.part_one(streamReader);
 
 Console.WriteLine(ans);
