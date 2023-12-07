@@ -2,6 +2,6 @@
 readPath = Environment.CurrentDirectory + "/data/" + readPath;
 var streamReader = new StreamReader(readPath);
 
-var ans = day4.card_analyzer.part_two(streamReader);
+var ans = day5.seed_mapper.part_one(streamReader);
 
 Console.WriteLine(ans);
